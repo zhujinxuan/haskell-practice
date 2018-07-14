@@ -1,0 +1,13 @@
+name: euler
+version: 0
+build-type:  Simple
+cabal-version: >=2.0
+
+executable euler
+  main-is: Main.hs
+  build-depends: base,
+                 tasty,
+                 tasty-hunit,
+                 tasty-smallcheck,
+                 tasty-quickcheck 
+  ghc-options: -Wall
